@@ -14,7 +14,7 @@ header {
     position: fixed;
     left:0;
     width: 100%;
-    
+    background-color: rgb(173, 17, 17);
     display: flex;
     flex-direction: row;
 }
@@ -40,7 +40,11 @@ aside{
 }
 
 footer{
-    height: 10%;
+   display: inline;
+    text-align: center;
+    padding: 3px;
+  
+
 }
 
 .barra_top{
@@ -94,8 +98,8 @@ footer{
 
 .trailer{
     left: 0;
-    width: 800px;
-    height: 500px;
+    width: 70%;
+    height: 315px;
 }
 
 .trailer img{
@@ -103,4 +107,26 @@ footer{
     width: 800px;
     height: 500px;
     box-shadow: 1px 1px 100px rgb(173, 17, 17);
+}
+.Contentsections {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    
+}
+.maincontentimg{
+    width: 90%;
+    height: 150px;
+}
+.Contentsections li {
+    display:block;
+    padding: 15px 20px 0 0;
+}
+
+h3{
+    color: cornsilk;
+}
+h2{
+    color: rgb(210, 183, 30);
 }
