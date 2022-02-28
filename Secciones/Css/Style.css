@@ -1,36 +1,37 @@
 body{
 font:400 1rem/1.5625rem sans-serif;
-background-color: firebrick;
+background: rgb(173, 17, 17) !important;
+
 } 
 
 .container {
-    background-color: rgb(102, 31, 31);;
-    margin: 0 0 0 0  !important;
-    padding: 0 !important;
-    
-    
+    background-color: rgb(173, 17, 17) ;
 }
 
 header {
+    opacity: 1;
     margin: 0;
-    position: relative;
-    top:0;
-    background-color:rgb(173, 17, 17) ;
+    position: fixed;
+    left:0;
+    width: 100%;
+    
     display: flex;
     flex-direction: row;
 }
 
 #logo{
-    margin-bottom: 0;
+    width: 200px;
+    height: 100px;
     margin-right: 1.5rem;
-    padding: 0 0 0 1.5rem ;
     position: relative;
-    z-index: 2;
+    box-shadow: 1px 1px 100px #ddd;
 }
 .main{
     height: 80%;
     width: 70%;
     float:left;
+    padding-top: 100px;
+    
 }
 aside{
     height: 80%;
@@ -60,11 +61,11 @@ footer{
 }
 
 .menu li{
-    flex-grow: ;
+    flex-grow: 2;
 }
 
 .menu li:hover a{
-    color:rgb(102, 31, 31);
+    color:rgb(0, 0, 0);
     
 }
 
@@ -78,7 +79,28 @@ footer{
 .search{
     margin: 10px 0 0 20px;
 }
-h2{
-    text-align: center;
-    color: blanchedalmond;
+
+.menu ul{
+    margin:0;
+    display:flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.publicidad{
+    padding-top: 100px;
+}
+
+.trailer{
+    left: 0;
+    width: 800px;
+    height: 500px;
+}
+
+.trailer img{
+    
+    width: 800px;
+    height: 500px;
+    box-shadow: 1px 1px 100px rgb(173, 17, 17);
 }
