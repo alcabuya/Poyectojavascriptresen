@@ -2,79 +2,99 @@
 <html lan="es">
     <head>
         <meta charset = "UTF-8">
+        <link rel="stylesheet" type="text/css" href="Css/Style.css">
+        <title>Estrenos reseñas</title>
     </head>
     <body>
-        <div class = "topbox">
+      <div class="container">
+      
           <header class="Headerbox">
               
                   <a href = "index.html">
-                      <img src = "Img/Logopag.png" alt="Main" height="100px" width="200px"/>
+                      <img id="logo" src = "Img/Logopag.png" alt="Main" height="100px" width="200px"/>
                   </a>
-              
-          </header>
-          <nav class = "mainmenu">
-            <ul id = "mainitems">
-                <li><a href="Series.html">Series</a></li>
-                <li><a href="Generos.html">Generos</a></li>
-                <li><a href="Populares.html">Populares</a></li>
-                <li><a href="Peliculas.html">Peliculas</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="Estrenosbox">
-            
-        </div>
-            <div class = "Rankingsbox">
-                <aside>
-                  <blockquote class="addv" id="bepsi">Compra bepsi
-                    <br>
-                      <img src="Img/bepsi.png" alt="bepsi ad"/>
-                  </blockquote>
-                  <blockquote class="addv" id="river">
-                    Compra River Cola siempre lo mejor
-                    <br>
-                    <img src="Img/rivercola.png" alt="River cola ad" height="160px" width="200px"/>
-                  </blockquote>
-                  <blockquote class="Topseries">
-                    <h3>Top series</h3>
-                    <ul>
-                      <li>Pasión de gavilanes<br>
-                        <img src="Img/Pasiondegav.jfif" height="50px" width="50px"/>
-                      </li>
-                      <li>Estamos muertos<br>
-                        <img src="Img/estamosmuert.jfif" height="50px" width="50px"/>
-                      </li>
-                      <li>Archivo 81<br>
-                        <img src="Img/archiv.jfif" height="50px" width="50px"/>
-                      </li>
-                      <li>Inventando a Anna<br>
-                        <img src="Img/Inventando_a_Anna.jpg" height="50px" width="50px"/>
-                      </li>
-                      <li>The Sinner<br>
-                          <img src="Img/thesinner.jfif" height="50px" width="50px"/></li>
-                    </ul>
-                  </blockquote>
-                  <blockquote class="Toppelis">
-                    <h3>Top películas</h3>
-                    <ul>
-                        <li>Texas Chainsaw Massacre<br>
-                          <img src="Img/Chainsawm.jfif" height="50px" width="50px"/>
-                        </li>
-                        <li>El poder del perro<br>
-                          <img src="Img/perropow.jfif" height="50px" width="50px"/>
-                        </li>
-                        <li>A través de mi ventana<br>
-                          <img src="Img/Atravesdm.jfif" height="50px" width="50px"/>
-                        </li>
-                        <li>el estafador de tinder<br>
-                          <img src="Img/estaftind.jpg" height="50px" width="50px"/>
-                        </li>
-                        <li>tick tick boom<br>
-                            <img src="Img/ticktickboom.jfif" height="50px" width="50px"/></li>
+                  <div class="barra_top">
+                    <nav class = "menu">
+                      <ul>
+                          
+                          <li><a href="Series.html">Series</a></li>
+                          <li><a href="Generos.html">Generos</a></li>
+                          <li><a href="Populares.html">Populares</a></li>
+                          <li><a href="Peliculas.html">Peliculas</a></li>
                       </ul>
-                  </blockquote>
-                </aside>
-              </div>
+                    </nav>
+                    <div class="search">
+                      <input id="keys" name="s" type="search" placeholder="Buscar series... " autocomplete="off"> 
+                    </div>  
+                  </div>
+          </header>
+          
+       
+          <div class="main">
+            <section class = "Series">
+                <h2>Series</h2>
+
+            </section>
+            <section class = "Peliculas">
+                <h2>Películas</h2>
+            </section>
+        </div>
+        <aside>
+          <div class="Publicidad">
+            <blockquote class="addv" id="bepsi">Compra bepsi
+              <br>
+                <img src="Img/bepsi.png" alt="bepsi ad"/>
+            </blockquote>
+            <blockquote class="addv" id="river">
+              Compra River Cola siempre lo mejor
+              <br>
+              <img src="Img/rivercola.png" alt="River cola ad" height="160px" width="200px"/>
+            </blockquote>
+          </div>
+
+          <div class="top">
+            <blockquote class="Topseries">
+              <h3>Top series</h3>
+              <ul>
+                <li>Pasión de gavilanes<br>
+                  <img src="Img/Pasiondegav.jfif" height="50px" width="50px"/>
+                </li>
+                <li>Estamos muertos<br>
+                  <img src="Img/estamosmuert.jfif" height="50px" width="50px"/>
+                </li>
+                <li>Archivo 81<br>
+                  <img src="Img/archiv.jfif" height="50px" width="50px"/>
+                </li>
+                <li>Inventando a Anna<br>
+                  <img src="Img/Inventando_a_Anna.jpg" height="50px" width="50px"/>
+                </li>
+                <li>The Sinner<br>
+                    <img src="Img/thesinner.jfif" height="50px" width="50px"/></li>
+              </ul>
+            </blockquote>
+            <blockquote class="Toppelis">
+              <h3>Top películas</h3>
+              <ul>
+                  <li>Texas Chainsaw Massacre<br>
+                    <img src="Img/Chainsawm.jfif" height="50px" width="50px"/>
+                  </li>
+                  <li>El poder del perro<br>
+                    <img src="Img/perropow.jfif" height="50px" width="50px"/>
+                  </li>
+                  <li>A través de mi ventana<br>
+                    <img src="Img/Atravesdm.jfif" height="50px" width="50px"/>
+                  </li>
+                  <li>el estafador de tinder<br>
+                    <img src="Img/estaftind.jpg" height="50px" width="50px"/>
+                  </li>
+                  <li>tick tick boom<br>
+                      <img src="Img/ticktickboom.jfif" height="50px" width="50px"/></li>
+                </ul>
+            </blockquote>
+
+          </div>
+          
+        </aside>
               <div class ="Bottombox">
                 <footer>
                   <ul>
@@ -85,7 +105,7 @@
                   </ul>
                 </footer>
               </div>
-      
+        </div>
     </body>
 
 </html>

@@ -1,11 +1,14 @@
 body{
 font:400 1rem/1.5625rem sans-serif;
+background-color: firebrick;
 } 
 
 .container {
     background-color: rgb(102, 31, 31);;
     margin: 0 0 0 0  !important;
     padding: 0 !important;
+    
+    
 }
 
 header {
@@ -74,4 +77,8 @@ footer{
 
 .search{
     margin: 10px 0 0 20px;
+}
+h2{
+    text-align: center;
+    color: blanchedalmond;
 }
