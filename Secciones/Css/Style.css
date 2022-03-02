@@ -75,10 +75,11 @@ footer{
 }
 
 .menu li{
-    padding-left: 30px;
-    font-size: 25px;
+    padding-left: 10rem;
+    font-size: 10rem;
     font-style: italic;
 }
+
 
 .menu li:hover a{
     color:rgb(0, 0, 0);
@@ -109,8 +110,10 @@ footer{
 }
 
 .maincontentimg{
-    width: 90%;
-    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .Contentsections li {
@@ -119,9 +122,17 @@ footer{
 }
 
 .titulo{
-    height: 10%;
+    margin: auto;
     width: 100%;
     background-color: black;
+    text-align: left;
+    padding: 10px;
+    
+}
+.mainparr{
+    text-align: justify;
+    font-size: 30px;
+    line-height: 35px;
 }
 
 .col{
