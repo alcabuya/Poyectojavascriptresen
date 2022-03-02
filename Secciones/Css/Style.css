@@ -1,6 +1,6 @@
 body{
 font:400 1rem/1.5625rem sans-serif;
-background:-webkit-linear-gradient(90deg, blue 20%, black 80%);
+background:-webkit-linear-gradient(90deg, black 30%, rgb(1, 1, 104) 70%);
 
 } 
 
@@ -221,8 +221,12 @@ h2{
 }
 
 .top{
-    border: 1px solid darkblue;
+    border: 1px solid black;
     border-radius: 10px;
-    background-color: rgb(35, 28, 97);
+    background-color: rgb(10, 4, 59);
     margin: 10px 0 10px 0; 
+}
+
+video{
+    padding-top: 100px;
 }
