@@ -31,6 +31,8 @@ header {
 }
 
 .main{
+    display: flex;
+    flex-wrap: wrap;
     height: 80%;
     width: 80%;
     padding-right: 20px;
@@ -133,11 +135,19 @@ footer{
     font-size: 30px;
     line-height: 35px;
 }
-
+.row{
+    text-align: center;
+    width: 300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .col{
 text-align: center;
-height: 420px;
-margin: 10px;
+height: 400px;
+width: 300px;
+margin: 5px;
 display:flex;
 flex-direction: column;
 justify-content: center;
@@ -146,8 +156,8 @@ align-items: center;
 }
 
 .col img{
-    height: 350px;
-    width: 450px;
+    height: 200px;
+    width: 250px;
 }
 .slider{
     left: 0;
